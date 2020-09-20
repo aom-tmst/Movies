@@ -1,9 +1,9 @@
 
 .tabbar {
-    background-color: darkred;
+    background-color: rgb(32, 32, 32);
 }
 .toolbar{
-    background-color: darkred;
+    background-color:  rgb(32, 32, 32);
 }
 ons-carousel[fullscreen] {
     height: 80%;
