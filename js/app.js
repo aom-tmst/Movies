@@ -14,4 +14,46 @@ var prev = function() {
     });
   });
 
+  document.addEventListener('init', function (event) {
+    var page = event.target;
+
+    if (page.id === 'home') {
+
+      console.log("i");
+
+      page.querySelector('#movie1').onclick = function () {
+        console.log("i");
+        document.querySelector('#myNavigator').pushPage('view/moviedetails.html');
+      };
+    } 
+
+    if (page.id === 'home') {
+
+      console.log("ii");
+
+      page.querySelector('#movie2').onclick = function () {
+        console.log("ii");
+        document.querySelector('#myNavigator').pushPage('view/moviedetails.html');
+      };
+    } 
+
+    if (page.id === 'home') {
+
+      console.log("iii");
+
+      page.querySelector('#movie3').onclick = function () {
+        console.log("iii");
+        document.querySelector('#myNavigator').pushPage('view/moviedetails.html');
+      };
+    } 
+  });
+
+  document.addEventListener('init', function(event) {
+    var page = event.target;
+  
+   if (page.id === 'moviedetails') {
+      page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
+    }
+  });
+
   
