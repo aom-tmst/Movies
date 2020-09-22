@@ -48,12 +48,5 @@ var prev = function() {
     } 
   });
 
-  document.addEventListener('init', function(event) {
-    var page = event.target;
   
-   if (page.id === 'moviedetails') {
-      page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
-    }
-  });
-
   

@@ -1,23 +1,25 @@
-
 .rowmagin{  
-    margin-top: 15px;
+   margin-top: 15px;
     margin-bottom: 15px;
     padding-left: 10px;
    padding-right: 10px;
 }
 .list-item__subtitle {
 font-size: medium;
+font-family: 'Varela Round', sans-serif;
 }
 .list-item__thumbnail{
     width: 150px;
-    height: 200px;
+    height: 230px;
     border-radius: 6px;
     display: block;
     
     
 
 }
-
+.content{
+    font-family: 'Varela Round', sans-serif;
+}
 .search{
     border: dashed;
 }
@@ -36,14 +38,14 @@ ons-carousel[fullscreen] {
     color: rgb(212, 193, 193);
 }
 .bottom-bar, .toolbar__center, .toolbar__title {
- 
+    font-family: 'Varela Round', sans-serif;
     font-size: 22px;
     margin: 0;
     color: white;
     padding: 0;
 }
 .font1{
-  
+    font-family: 'Varela Round', sans-serif;
     font-size: 21px;
     color: black;
 }
@@ -59,4 +61,15 @@ ons-carousel[fullscreen] {
         .movie_list img {
           width: 95%
         }
-    
+.back-button__icon{
+    fill: seashell;
+     
+    }
+
+    .back-button__label{
+        color: white;
+    margin-top: 3px;
+    }
+.center{
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
